@@ -1,0 +1,42 @@
+[
+  {
+    "name": "delta",
+    "returncode": 0,
+    "elapsed_seconds": 12.131
+  },
+  {
+    "name": "reference_units",
+    "returncode": 0,
+    "elapsed_seconds": 2.491
+  },
+  {
+    "name": "problem_validation",
+    "returncode": 0,
+    "elapsed_seconds": 2.106
+  },
+  {
+    "name": "quality_format",
+    "returncode": 0,
+    "elapsed_seconds": 2.003
+  },
+  {
+    "name": "python_syntax",
+    "returncode": 0,
+    "elapsed_seconds": 3.001
+  },
+  {
+    "name": "js_syntax",
+    "returncode": 0,
+    "elapsed_seconds": 0.192
+  },
+  {
+    "name": "http",
+    "returncode": 0,
+    "elapsed_seconds": 113.914
+  },
+  {
+    "name": "ui",
+    "returncode": 0,
+    "elapsed_seconds": 7.394
+  }
+]

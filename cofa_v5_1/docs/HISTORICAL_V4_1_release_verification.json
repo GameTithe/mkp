@@ -1,0 +1,88 @@
+{
+  "fresh_zip_extraction": true,
+  "code_matches": true,
+  "steps": [
+    {
+      "name": "fresh ZIP delta regression 34",
+      "returncode": 0,
+      "output_file": "docs/release_delta_results.txt"
+    },
+    {
+      "name": "fresh ZIP reference unit 6",
+      "returncode": 0,
+      "output_file": "docs/release_reference_unit_results.txt"
+    },
+    {
+      "name": "fresh ZIP manifest validation",
+      "returncode": 0,
+      "output_file": "docs/release_problem_validation.json"
+    },
+    {
+      "name": "fresh ZIP Python compilation",
+      "returncode": 0,
+      "output_file": "docs/release_python_syntax.txt"
+    },
+    {
+      "name": "fresh ZIP JavaScript syntax",
+      "returncode": 0,
+      "output_file": "docs/release_javascript_syntax.txt"
+    }
+  ],
+  "live_llm_tested": false,
+  "windows_tested": false,
+  "tested_code_sha256": {
+    "acceptance/run.py": "1b1437605215da6fbec41ec258017488d4b6134167cb4a08d95580910086df90",
+    "active_problem.json": "512b04c713667ffe3fdb3074ec09eee7aff7c5eb53b8cdb9bc86496f6853f64b",
+    "cofa/__init__.py": "41e250657c97f47b06fcb33c976912f7858e7cf91cd17f7534d13a44849354f4",
+    "cofa/codex.py": "833fcb0cf3da6a726715c8d4470d90e3a7ff35da147490afbab8ad287c50db07",
+    "cofa/engine.py": "9ec256e6daa6498499d5377ac8e8f4187390256dce2fedcc4d0f51deda9a7781",
+    "cofa/evaluation.py": "9a0b444d4535eb478b87cf2cbce8f0fe29eba97193518bc5f632a790503c181d",
+    "cofa/fs.py": "0fd521b25ef639fb8651f63c80fa50a15aafb9c8bce6bce1c7daa7d22a47fee4",
+    "cofa/metrics.py": "b976ad421392fd035ea11dd322625540aaa86c05cea39d648bdc1012d164143e",
+    "cofa/preparation.py": "38526aacb0caff2d4571de13a8ea7da8188152fef819c2cbc96dbdf32e0e380a",
+    "cofa/problems.py": "2248a530edd560d44adc4e9dc1a2f4d39e9e7825ebe4c24baeb5a141983407d0",
+    "cofa/rubric.py": "95a1877e44758d24b8ad064b5248481b76c6a49c9e9307e40cb89085d3723d09",
+    "cofa/stakeholder.py": "7380ca8732f76b5a373a7ea01f807f303b56fba647a1faf6cfd538d633ec52ed",
+    "cofa/storage.py": "41a389c646cca9d7a96e1f27a26112fe258d7028a5885d98e3d1402d7e900209",
+    "cofa/webui.py": "3a548cca8111785fa5c5f508486b08180f30c08e2eae9bf4673f265f3562d894",
+    "config.json": "cd0b51160ed4780b708f85a99b49c61cb26be38ac16acee2c0b6c507c2388598",
+    "exam.py": "162f658ac72b44467f79c11360b84e3567d756d0303bc58f121ef8855e1c8db7",
+    "private/stakeholder.json": "7e370019fa0470f616ec6b691faf086b5b73ffa50706c6e6698ebefc761b84d3",
+    "problem_packs/client-frame-regression/private/cases/cases.json": "4544db1193b699b210e2a0069da82b2720cf9973ebec2047ebf44579a313e6cd",
+    "problem_packs/client-frame-regression/private/expected/sample_output.json": "8a70d0e8e52a850a656c0089837e78a8dcb6d9cec613fa15eb349f0b589c5ac1",
+    "problem_packs/client-frame-regression/private/reference/app.py": "d16f0a6d39a7d51f0daa7fd21dea65734cccd5be53075202ab1736c5a3b1d8d3",
+    "problem_packs/client-frame-regression/private/reference/framescope.py": "1e41938514c7c6279d3c3782ffd062cb460056c85dc52b367bc86ad66d05b086",
+    "problem_packs/client-frame-regression/private/reference/test_reference.py": "8a4b806ba5f1a6bc5e546c11bfa4e85336a33ec720b31905e0caf822f7be7a7f",
+    "problem_packs/client-frame-regression/private/truth.json": "d800e17b0d3c0da9a358a72bdafb6239f00d0e342ec05ac775e1f3613fd9453d",
+    "problem_packs/client-frame-regression/problem.json": "7eb103738861493b353e726fcf6cf5af73e336203937ebab3166b793c84d56ae",
+    "problem_packs/client-frame-regression/public/app.py": "67395c221f1193ed86bb9ea25262928f0686344bf47ccb988f7d5bcb1d6a4ccc",
+    "problem_packs/client-frame-regression/public/data/empty.json": "57960a0a5cd09b957304e3f696693aba01f6dd7352ab832d473dee95cb3e2ec2",
+    "problem_packs/client-frame-regression/public/data/frames.json": "2f7e7cc18dd5d07c91b2bf3c645c32d37150585deb5eeea07f5b60173c6af037",
+    "problem_packs/client-frame-regression/public_cases/cases.json": "095be39789dfca52e348111d85adc7df9c391ef2ca58a4008b24ec06e9f5af57",
+    "prompts/auditor.md": "b3d0a11f1a8f0db8b389e0250a7555ad87aed9f1213e3ce5a3967b5fa3e08571",
+    "prompts/evidence_mapper.md": "69335f0ed1f6a5ddf6e2d39c9406abfda073a83e127aed2f356321145b5a4512",
+    "prompts/implementer.md": "ce3ff9f5c3175aebad04d5e658b0147b2b595d8bb0a7bb7f4bff26e815f064f8",
+    "prompts/interviewer.md": "8ee54ad707c46bfc51ecaf8b01b8a582b910aa4f5adcea8faf5fa5eb691948f6",
+    "prompts/judge.md": "689e3d0aecbcb5a29167e34d18c59f7de779fe3b8ce0a1091bd1e3f88bb628d0",
+    "prompts/main.md": "304eb4f0fdf0d04d6cabe269a9c5f804b59cda0a73e775f0bf21afbee15a3aa1",
+    "prompts/planner.md": "01ae04332fc5697e152eed92b82e7fef1fee2f1a8d45f5a211fb82dc61d1b471",
+    "prompts/stakeholder.md": "94930bf83fc075030c54e758682e0dc01676cdd2c4501e8dad64d133b750b86a",
+    "prompts/tester.md": "8bcf32c1836d078ddf9fa77cf9a4c2567b1281181a4d36e1f1022fce713768e8",
+    "schemas/axis_score.json": "5a027588a71aaa8d787d5d2fc9a96e614e9c784facd897fcfef4bea906ebfca0",
+    "schemas/evidence_map.json": "1afc28ce02ff82ce97bd9099f8437543b71a475c163ba5074174f7793313bc3b",
+    "schemas/interview.json": "1460ed3390508b62ea8ec9957fe30b9878b340884613f379305985efba02a2f0",
+    "tasks.implementation.example.json": "767ed2414f2051cbfa5eed1ba5cd3985cc8dbebd357fe0034c910d6c25be7b03",
+    "tasks.json": "726e0ba144904939456f8733accf54e08f10a4c30f1e5ee9a2a2bafaf4e7a1fc",
+    "tests/fake_codex.py": "1615882320e183ebc9ac2bc30c3ba0d9d45c79da8692a3e401a1d0fd8b53f499",
+    "tests/test_harness.py": "b37de58f0362fe916cce6c37cad4268b35d5b277a7354cc3a81975b653f2c8be",
+    "tests/test_podcast_profile.py": "ac847a8f86590b245a6f85d175246ffc219a260cf646b3467800bf8090f84cda",
+    "tests/test_problem_packs.py": "60f5c6e725c812dd7e14084da895b695420071922906f9dfc31d9ecd10c451a1",
+    "tools/case_runner.py": "50963544ec3e84ba7078a47b27afbd936eba3e8453951f611e2dddae4457fc8b",
+    "web/app.js": "54410f18ca9f576e8310d5ef4a2e63f154564420087c7d2033a487f0903fe69f",
+    "web/index.html": "9f8bb32b63753876c9edcc7c8bda87d92a356d290ca2acad74c2a3b683673cf1",
+    "web/style.css": "8f8c707e9392389db118af2df89a1c5d9316d43f0850df3fb8b3eb2c5f20e76f",
+    "workspace/app.py": "67395c221f1193ed86bb9ea25262928f0686344bf47ccb988f7d5bcb1d6a4ccc",
+    "workspace/data/empty.json": "57960a0a5cd09b957304e3f696693aba01f6dd7352ab832d473dee95cb3e2ec2",
+    "workspace/data/frames.json": "2f7e7cc18dd5d07c91b2bf3c645c32d37150585deb5eeea07f5b60173c6af037"
+  }
+}

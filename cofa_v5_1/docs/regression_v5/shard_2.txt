@@ -1,0 +1,26 @@
+test_03_malformed_json_is_rejected (test_harness.EvaluationTests.test_03_malformed_json_is_rejected) ... ok
+test_01_secret_files_are_not_submitted (test_harness.FilesystemTests.test_01_secret_files_are_not_submitted) ... ok
+test_03_deadline_survives_restart_and_blocks_work (test_harness.LifecycleTests.test_03_deadline_survives_restart_and_blocks_work) ... ok
+test_11_demo_end_to_end_has_no_fabricated_score (test_harness.LifecycleTests.test_11_demo_end_to_end_has_no_fabricated_score) ... ok
+test_04_timeout_kills_process_and_records_failure (test_harness.ProtocolTests.test_04_timeout_kills_process_and_records_failure) ... ok
+test_01_loopback_api_token_origin_and_file_boundary (test_harness.WebSecurityTests.test_01_loopback_api_token_origin_and_file_boundary) ... ok
+test_08_invalid_policy_is_rejected (test_podcast_profile.DisclosureProfileTests.test_08_invalid_policy_is_rejected) ... ok
+test_04_existing_kit_not_overwritten (test_podcast_profile.PreparationAndEvidenceTests.test_04_existing_kit_not_overwritten) ... ok
+test_12_demo_resources_present_and_no_cost_guessed (test_podcast_profile.PreparationAndEvidenceTests.test_12_demo_resources_present_and_no_cost_guessed) ... ok
+test_08_nested_cache_is_subset (test_podcast_profile.UsageTests.test_08_nested_cache_is_subset) ... ok
+test_06_pack_tamper_after_submit_blocks_evaluation (test_problem_packs.ProblemPackTests.test_06_pack_tamper_after_submit_blocks_evaluation) ... ok
+test_14_invalid_id_rejected (test_problem_packs.ProblemPackTests.test_14_invalid_id_rejected) ... ok
+test_04_out_of_scope_no_invention (test_problem_packs.StakeholderTests.test_04_out_of_scope_no_invention) ... ok
+test_12_reference_only_cannot_score_candidate (test_problem_packs.StakeholderTests.test_12_reference_only_cannot_score_candidate) ... ok
+test_08_link_requires_actual_event (test_v5_features.ConfirmationTests.test_08_link_requires_actual_event) ... ok
+test_06_no_auto_answer_document (test_v5_features.ContextTests.test_06_no_auto_answer_document) ... ok
+test_02_fabricated_quote_rejected (test_v5_features.EvidenceReviewTests.test_02_fabricated_quote_rejected) ... ok
+test_10_malformed_verifier_holds_not_scores (test_v5_features.EvidenceReviewTests.test_10_malformed_verifier_holds_not_scores) ... ok
+test_06_feedback_unavailable_during_exam (test_v5_features.PredictionAndFeedbackTests.test_06_feedback_unavailable_during_exam) ... ok
+test_14_case_coverage_not_ability (test_v5_features.PredictionAndFeedbackTests.test_14_case_coverage_not_ability) ... ok
+test_04_feedback_ui_and_routing_exist (test_v5_features.QualityFixtureTests.test_04_feedback_ui_and_routing_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 201.758s
+
+OK

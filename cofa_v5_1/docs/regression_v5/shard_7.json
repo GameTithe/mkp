@@ -1,0 +1,31 @@
+{
+  "shard": 7,
+  "tests_run": 20,
+  "passed": true,
+  "skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 217.723,
+  "test_ids": [
+    "test_harness.EvaluationTests.test_08_binary_is_declared_not_silently_inspected",
+    "test_harness.FilesystemTests.test_06_symlink_escape_rejected",
+    "test_harness.LifecycleTests.test_08_post_submit_development_is_blocked",
+    "test_harness.ProtocolTests.test_01_captures_unknown_events_and_full_tool_output",
+    "test_harness.StorageTests.test_03_full_unicode_export",
+    "test_podcast_profile.DisclosureProfileTests.test_05_previously_known_facts_not_counted_as_new",
+    "test_podcast_profile.PreparationAndEvidenceTests.test_01_text_copied_and_hash_recorded",
+    "test_podcast_profile.PreparationAndEvidenceTests.test_09_empty_origin_or_purpose_rejected",
+    "test_podcast_profile.UsageTests.test_05_partial_stream_reports_known_sum_and_missing_turn",
+    "test_problem_packs.ProblemPackTests.test_03_reselection_keeps_backup",
+    "test_problem_packs.ProblemPackTests.test_11_public_checks_do_not_certify_business_rules",
+    "test_problem_packs.StakeholderTests.test_01_question_discloses_only_relevant_facts",
+    "test_problem_packs.StakeholderTests.test_09_history_provided_to_followup_router",
+    "test_v5_features.ConfirmationTests.test_05_unknown_fact_rejected",
+    "test_v5_features.ContextTests.test_03_workflow_does_not_expose_threshold",
+    "test_v5_features.ContextTests.test_11_model_failure_leaves_auditable_event",
+    "test_v5_features.EvidenceReviewTests.test_07_agreement_and_support_retains_rating",
+    "test_v5_features.PredictionAndFeedbackTests.test_03_execution_only_after_prediction_and_frozen_unchanged",
+    "test_v5_features.PredictionAndFeedbackTests.test_11_feedback_real_mode_failure_preserves_facts",
+    "test_v5_features.QualityFixtureTests.test_01_fixture_count_and_no_human_claim"
+  ]
+}

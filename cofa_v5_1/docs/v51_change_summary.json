@@ -1,0 +1,38 @@
+{
+  "source_zip": "cofa_mock_v5_stakeholder_evaluation_feedback_client_120plus30.zip",
+  "source_zip_sha256": "59e7b8cb9d0f19ab6da6f36bac6a304c90ad2d4bcb153dafc5e992d3d38150b3",
+  "changed_existing_files": [
+    "README.md",
+    "START_HERE.md",
+    "cofa/benchmarks.py",
+    "cofa/contextual.py",
+    "cofa/engine.py",
+    "cofa/evaluation.py",
+    "cofa/feedback.py",
+    "cofa/metrics.py",
+    "cofa/quality.py",
+    "cofa/webui.py",
+    "config.json",
+    "docs/PREVIEW_README.md",
+    "docs/RUBRIC.md",
+    "docs/V5_PROBLEM_EXTENSIONS.md",
+    "exam.py",
+    "problem_packs/client-frame-regression/private/quality_routes.json",
+    "problem_packs/client-frame-regression/problem.json",
+    "tests/test_v5_features.py",
+    "web/app.js",
+    "web/index.html"
+  ],
+  "unchanged_business_files": [
+    "problem_packs/client-frame-regression/private/INTERVIEW_GUIDE.md",
+    "problem_packs/client-frame-regression/private/SOLUTION.md",
+    "problem_packs/client-frame-regression/private/cases/cases.json",
+    "problem_packs/client-frame-regression/private/expected/sample_output.json",
+    "problem_packs/client-frame-regression/private/interview_probes.json",
+    "problem_packs/client-frame-regression/private/reference/RUNBOOK.md",
+    "problem_packs/client-frame-regression/private/reference/app.py",
+    "problem_packs/client-frame-regression/private/reference/framescope.py",
+    "problem_packs/client-frame-regression/private/reference/test_reference.py",
+    "problem_packs/client-frame-regression/private/truth.json"
+  ]
+}

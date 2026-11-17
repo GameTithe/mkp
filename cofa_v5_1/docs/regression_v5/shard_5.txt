@@ -1,0 +1,25 @@
+test_06_masking_preserves_context (test_harness.EvaluationTests.test_06_masking_preserves_context) ... ok
+test_04_merge_accepts_nonconflicting_addition (test_harness.FilesystemTests.test_04_merge_accepts_nonconflicting_addition) ... ok
+test_06_changed_frozen_source_blocks_evaluation (test_harness.LifecycleTests.test_06_changed_frozen_source_blocks_evaluation) ... ok
+test_14_run_records_full_stdout_stderr_exit (test_harness.LifecycleTests.test_14_run_records_full_stdout_stderr_exit) ... ok
+test_01_concurrent_events_are_complete (test_harness.StorageTests.test_01_concurrent_events_are_complete) ... ok
+test_03_repeated_global_request_does_not_unlock_rest (test_podcast_profile.DisclosureProfileTests.test_03_repeated_global_request_does_not_unlock_rest) ... ok
+test_11_router_receives_known_context_not_answer_code (test_podcast_profile.DisclosureProfileTests.test_11_router_receives_known_context_not_answer_code) ... ok
+test_07_start_freezes_declared_preparation (test_podcast_profile.PreparationAndEvidenceTests.test_07_start_freezes_declared_preparation) ... ok
+test_03_missing_usage_is_unknown_not_zero (test_podcast_profile.UsageTests.test_03_missing_usage_is_unknown_not_zero) ... ok
+test_01_manifest_and_test_requirement_map (test_problem_packs.ProblemPackTests.test_01_manifest_and_test_requirement_map) ... ok
+test_09_reference_passes_frozen_expected_cases (test_problem_packs.ProblemPackTests.test_09_reference_passes_frozen_expected_cases) ... ok
+test_17_full_flow_uses_problem_reference_and_final_cases (test_problem_packs.ProblemPackTests.test_17_full_flow_uses_problem_reference_and_final_cases) ... ok
+test_07_unknown_fact_id_fails_closed (test_problem_packs.StakeholderTests.test_07_unknown_fact_id_fails_closed) ... ok
+test_03_unspecified_is_not_approved (test_v5_features.ConfirmationTests.test_03_unspecified_is_not_approved) ... ok
+test_01_new_defaults (test_v5_features.ContextTests.test_01_new_defaults) ... ok
+test_09_invalid_route_rejected (test_v5_features.ContextTests.test_09_invalid_route_rejected) ... ok
+test_05_environment_claim_requires_counter (test_v5_features.EvidenceReviewTests.test_05_environment_claim_requires_counter) ... ok
+test_01_authored_probes_valid (test_v5_features.PredictionAndFeedbackTests.test_01_authored_probes_valid) ... ok
+test_09_retry_does_not_change_grade (test_v5_features.PredictionAndFeedbackTests.test_09_retry_does_not_change_grade) ... ok
+test_17_feedback_cache_idempotent (test_v5_features.PredictionAndFeedbackTests.test_17_feedback_cache_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 297.197s
+
+OK

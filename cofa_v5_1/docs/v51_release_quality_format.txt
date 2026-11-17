@@ -1,0 +1,8 @@
+{
+  "fixture_valid": true,
+  "judge_cases": 12,
+  "stakeholder_cases": 24,
+  "model_called": false,
+  "human_reviewed": false,
+  "warning": "형식 검사만 통과. 실제 모델의 정확성/공정성 인증 아님."
+}

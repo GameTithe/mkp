@@ -1,0 +1,31 @@
+test_06_masking_preserves_context (test_harness.EvaluationTests.test_06_masking_preserves_context) ... ok
+test_04_merge_accepts_nonconflicting_addition (test_harness.FilesystemTests.test_04_merge_accepts_nonconflicting_addition) ... ok
+test_06_changed_frozen_source_blocks_evaluation (test_harness.LifecycleTests.test_06_changed_frozen_source_blocks_evaluation) ... ok
+test_14_run_records_full_stdout_stderr_exit (test_harness.LifecycleTests.test_14_run_records_full_stdout_stderr_exit) ... ok
+test_01_concurrent_events_are_complete (test_harness.StorageTests.test_01_concurrent_events_are_complete) ... ok
+test_03_repeated_global_request_does_not_unlock_rest (test_podcast_profile.DisclosureProfileTests.test_03_repeated_global_request_does_not_unlock_rest) ... ok
+test_11_router_receives_known_context_not_answer_code (test_podcast_profile.DisclosureProfileTests.test_11_router_receives_known_context_not_answer_code) ... ok
+test_07_start_freezes_declared_preparation (test_podcast_profile.PreparationAndEvidenceTests.test_07_start_freezes_declared_preparation) ... ok
+test_03_missing_usage_is_unknown_not_zero (test_podcast_profile.UsageTests.test_03_missing_usage_is_unknown_not_zero) ... ok
+test_01_manifest_and_test_requirement_map (test_problem_packs.ProblemPackTests.test_01_manifest_and_test_requirement_map) ... ok
+test_09_reference_passes_frozen_expected_cases (test_problem_packs.ProblemPackTests.test_09_reference_passes_frozen_expected_cases) ... ok
+test_17_full_flow_uses_problem_reference_and_final_cases (test_problem_packs.ProblemPackTests.test_17_full_flow_uses_problem_reference_and_final_cases) ... ok
+test_07_unknown_fact_id_fails_closed (test_problem_packs.StakeholderTests.test_07_unknown_fact_id_fails_closed) ... ok
+test_03_declares_missing_raw_under_small_budget (test_v51_stabilization.BalancedContextTests.test_03_declares_missing_raw_under_small_budget) ... ok
+test_03_caught_exception_not_pass (test_v51_stabilization.BenchmarkSummaryTests.test_03_caught_exception_not_pass) ... ok
+test_03_boundary_outage_is_not_candidate_evidence_failure (test_v51_stabilization.BoundaryReviewTests.test_03_boundary_outage_is_not_candidate_evidence_failure) ... ok
+test_04_restart_preserves_failure_and_facts (test_v51_stabilization.FailureFeedbackTests.test_04_restart_preserves_failure_and_facts) ... ok
+test_02_review_exception_reproduces_original_bug_fixed (test_v51_stabilization.LiveBenchmarkIntegrationTests.test_02_review_exception_reproduces_original_bug_fixed) ... ok
+test_08_changed_route_not_proven_fault (test_v51_stabilization.ReconsiderationTests.test_08_changed_route_not_proven_fault) ... ok
+test_08_link_requires_actual_event (test_v5_features.ConfirmationTests.test_08_link_requires_actual_event) ... ok
+test_06_no_auto_answer_document (test_v5_features.ContextTests.test_06_no_auto_answer_document) ... ok
+test_02_fabricated_quote_rejected (test_v5_features.EvidenceReviewTests.test_02_fabricated_quote_rejected) ... ok
+test_10_malformed_verifier_holds_not_scores (test_v5_features.EvidenceReviewTests.test_10_malformed_verifier_holds_not_scores) ... ok
+test_06_feedback_unavailable_during_exam (test_v5_features.PredictionAndFeedbackTests.test_06_feedback_unavailable_during_exam) ... ok
+test_14_case_coverage_not_ability (test_v5_features.PredictionAndFeedbackTests.test_14_case_coverage_not_ability) ... ok
+test_04_feedback_ui_and_routing_exist (test_v5_features.QualityFixtureTests.test_04_feedback_ui_and_routing_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 301.179s
+
+OK

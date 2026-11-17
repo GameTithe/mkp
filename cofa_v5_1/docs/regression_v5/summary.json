@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "discovered": 165,
+  "tests_run": 165,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "workers": 8,
+  "elapsed_seconds": 303.405,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "linux",
+  "live_llm": false,
+  "note": "Isolated processes; test doubles validate contracts, not LLM accuracy."
+}

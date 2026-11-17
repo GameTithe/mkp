@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": "string"
+    },
+    "axis": {
+      "type": "string",
+      "enum": [
+        "technique",
+        "intent",
+        "cognition"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "followup_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "question",
+    "axis",
+    "evidence_ids",
+    "followup_reason"
+  ],
+  "additionalProperties": false
+}

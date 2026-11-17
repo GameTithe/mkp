@@ -1,0 +1,13 @@
+logs/
+runtime/
+analysis/
+reports/
+submissions/
+agent_runs/
+imported_v2_logs/
+workspace_before_import/
+__pycache__/
+*.pyc
+.env
+backups/
+quality_runs/

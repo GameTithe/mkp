@@ -1,0 +1,25 @@
+test_01_complete_v5_pipeline_with_explicit_synthetic_provider (test_v5_features.StructuredPipelineTests.test_01_complete_v5_pipeline_with_explicit_synthetic_provider)
+Checks actual schema/quote/gating integration, NOT human score validity. ... ok
+test_02_feedback_rejects_another_assessment_bundle (test_v5_features.StructuredPipelineTests.test_02_feedback_rejects_another_assessment_bundle) ... Timeout (0:01:05)!
+Thread 0x00007f3069fa6780 (most recent call first):
+  File "/usr/lib/python3.13/selectors.py", line 398 in select
+  File "/usr/lib/python3.13/subprocess.py", line 2128 in _communicate
+  File "/usr/lib/python3.13/subprocess.py", line 1222 in communicate
+  File "/mnt/data/cofa_v5/cofa/engine.py", line 192 in run_command
+  File "/mnt/data/cofa_v5/cofa/engine.py", line 240 in check
+  File "/mnt/data/cofa_v5/cofa/engine.py", line 386 in prepare_interview
+  File "/mnt/data/cofa_v5/tests/test_v5_features.py", line 31 in done
+  File "/mnt/data/cofa_v5/tests/test_v5_features.py", line 299 in test_02_feedback_rejects_another_assessment_bundle
+  File "/usr/lib/python3.13/unittest/case.py", line 606 in _callTestMethod
+  File "/usr/lib/python3.13/unittest/case.py", line 651 in run
+  File "/usr/lib/python3.13/unittest/case.py", line 707 in __call__
+  File "/usr/lib/python3.13/unittest/suite.py", line 122 in run
+  File "/usr/lib/python3.13/unittest/suite.py", line 84 in __call__
+  File "/usr/lib/python3.13/unittest/runner.py", line 240 in run
+  File "<string>", line 1 in <module>
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 70.627s
+
+OK

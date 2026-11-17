@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "source_hash_files_checked": 80,
+  "code_prompt_pack_hashes_match": true,
+  "tests_rerun_from_zip": 38,
+  "reference_unit_tests_rerun": 6,
+  "HTTP_steps": 16,
+  "checks": [
+    {
+      "name": "python_syntax",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "javascript_syntax",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "problem_validation",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "quality_validation",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "ContextTests",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "ConfirmationTests",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "EvidenceReviewTests",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "QualityFixtureTests",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "reference_unit",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "HTTP",
+      "returncode": 0,
+      "passed": true
+    }
+  ],
+  "complete_regression_count": 165,
+  "complete_regression_rerun_from_zip": false,
+  "note": "Complete stable source suite ran before archiving. ZIP executable/prompt/pack hashes match; focused regressions and real HTTP flow were rerun from freshly extracted ZIP. Live LLM not available."
+}

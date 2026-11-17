@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "kind": "isolated Chromium DOM with memory mock API",
+  "steps": [
+    "feedback blocked during development",
+    "original-question reconsideration button routes correctly",
+    "completed-before-scoring allows factual feedback and retry",
+    "failed evaluation shows failure status and factual feedback",
+    "post-exam coach routing remains available after scoring failure",
+    "answer disclosure remains gated until evaluated",
+    "390px layout has no horizontal overflow"
+  ],
+  "errors": [],
+  "browser_to_live_backend_tested": false,
+  "live_llm_tested": false,
+  "document_width": 390,
+  "viewport_width": 390
+}

@@ -1,0 +1,17 @@
+test_01_real_quote_accepted (test_v5_features.EvidenceReviewTests.test_01_real_quote_accepted) ... ok
+test_02_fabricated_quote_rejected (test_v5_features.EvidenceReviewTests.test_02_fabricated_quote_rejected) ... ok
+test_03_unknown_reference_rejected (test_v5_features.EvidenceReviewTests.test_03_unknown_reference_rejected) ... ok
+test_04_supported_requires_evidence (test_v5_features.EvidenceReviewTests.test_04_supported_requires_evidence) ... ok
+test_05_environment_claim_requires_counter (test_v5_features.EvidenceReviewTests.test_05_environment_claim_requires_counter) ... ok
+test_06_repeated_scores_not_averaged (test_v5_features.EvidenceReviewTests.test_06_repeated_scores_not_averaged) ... ok
+test_07_agreement_and_support_retains_rating (test_v5_features.EvidenceReviewTests.test_07_agreement_and_support_retains_rating) ... ok
+test_08_no_run_no_high_T1 (test_v5_features.EvidenceReviewTests.test_08_no_run_no_high_T1) ... ok
+test_09_C2_needs_human_quote_not_just_ref (test_v5_features.EvidenceReviewTests.test_09_C2_needs_human_quote_not_just_ref) ... ok
+test_10_malformed_verifier_holds_not_scores (test_v5_features.EvidenceReviewTests.test_10_malformed_verifier_holds_not_scores) ... ok
+test_11_context_limit_holds_without_cutting (test_v5_features.EvidenceReviewTests.test_11_context_limit_holds_without_cutting) ... ok
+test_12_supported_negative_grade_can_be_zero (test_v5_features.EvidenceReviewTests.test_12_supported_negative_grade_can_be_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.496s
+
+OK

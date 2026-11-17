@@ -1,0 +1,31 @@
+{
+  "id": "client-frame-regression",
+  "version": "2.0.1",
+  "title": "FrameScope — 클라이언트 성능 회귀 분석",
+  "track": "client",
+  "ready": true,
+  "description": "이전·현재 빌드의 프레임 로그를 비교하는 로컬 분석 도구. 창작 모의문제이며 실제 출제 복원 아님.",
+  "stakeholder_name": "윤서 · 클라이언트 성능 QA 담당자 (가상)",
+  "valid": true,
+  "digest": "32863d4dd33058a45641a295f0adf834cc2905901b2b18983f19c4ab26bb243a",
+  "cases": {
+    "public": 4,
+    "private": 48
+  },
+  "automated_requirement_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10"
+  ],
+  "manual_or_uncovered_requirement_ids": [
+    "R11"
+  ],
+  "warning": "문제팩은 신뢰할 수 있는 출제자가 작성해야 합니다. 검증 명령은 로컬 코드를 실행합니다."
+}

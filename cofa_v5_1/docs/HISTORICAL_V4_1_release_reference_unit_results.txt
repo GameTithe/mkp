@@ -1,0 +1,11 @@
+test_bool_not_integer (test_reference.ReferenceTests.test_bool_not_integer) ... ok
+test_empty_document (test_reference.ReferenceTests.test_empty_document) ... ok
+test_empty_rank (test_reference.ReferenceTests.test_empty_rank) ... ok
+test_nan_not_numeric (test_reference.ReferenceTests.test_nan_not_numeric) ... ok
+test_rank20 (test_reference.ReferenceTests.test_rank20) ... ok
+test_rank21 (test_reference.ReferenceTests.test_rank21) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "COFA: 웹 콘솔 실행",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/exam.py",
+      "args": ["serve", "--open"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": { "PYTHONUTF8": "1" },
+      "justMyCode": true
+    }
+  ]
+}

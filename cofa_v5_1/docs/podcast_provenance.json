@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-16",
+  "video_id": "CLpN3zl8noQ",
+  "raw_youtube_captions_obtained": false,
+  "audio_listened": false,
+  "full_video_verified": false,
+  "source_type": "publisher_edited_interview_q_and_a",
+  "article_access": "relevant indexed body passages; direct article opens redirected to listing",
+  "article_urls": [
+    "https://maily.so/josh/posts/x1zg69d3rqg",
+    "https://eopla.net/magazines/48041"
+  ],
+  "official_reference": "https://www.getcofa.com/ko/probe",
+  "copyrighted_full_text_redistributed": false,
+  "local_design": {
+    "new_facts_per_turn": 3,
+    "exam_minutes": 120,
+    "interview_minutes": 30,
+    "official_weights_reproduced": false
+  }
+}

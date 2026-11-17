@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "empty",
+      "requirement_ids": [
+        "R01",
+        "R09"
+      ],
+      "expected_exit": 0,
+      "expected": {
+        "items": [],
+        "meta": {
+          "total_rows": 0,
+          "accepted_frames": 0,
+          "ignored_warmup": 0,
+          "invalid_rows": 0,
+          "duplicate_rows": 0
+        },
+        "warnings": []
+      },
+      "input": {
+        "schema_version": 1,
+        "frames": []
+      }
+    },
+    {
+      "id": "bad-schema",
+      "requirement_ids": [
+        "R01"
+      ],
+      "expected_exit": 2,
+      "expected": {
+        "error": {
+          "code": "INVALID_INPUT"
+        }
+      },
+      "input": {
+        "schema_version": 2,
+        "frames": []
+      }
+    },
+    {
+      "id": "malformed-json",
+      "requirement_ids": [
+        "R01",
+        "R10"
+      ],
+      "expected_exit": 2,
+      "expected": {
+        "error": {
+          "code": "INVALID_INPUT"
+        }
+      },
+      "input_text": "{\"schema_version\":1,\"frames\":[ SECRET_RAW_BAD_JSON",
+      "forbidden": [
+        "SECRET_RAW_BAD_JSON"
+      ]
+    },
+    {
+      "id": "missing-file",
+      "requirement_ids": [
+        "R01",
+        "R10"
+      ],
+      "expected_exit": 2,
+      "expected": {
+        "error": {
+          "code": "IO_ERROR"
+        }
+      },
+      "missing_file": true,
+      "forbidden": [
+        "private-secret"
+      ]
+    }
+  ]
+}

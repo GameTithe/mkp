@@ -1,0 +1,26 @@
+test_01_all_long_transcript_chunks_including_tail_are_mapped (test_harness.EvaluationTests.test_01_all_long_transcript_chunks_including_tail_are_mapped) ... ok
+test_09_numeric_score_pipeline_with_explicit_test_double (test_harness.EvaluationTests.test_09_numeric_score_pipeline_with_explicit_test_double) ... ok
+test_01_exact_default_limits (test_harness.LifecycleTests.test_01_exact_default_limits) ... ok
+test_09_interview_is_1800_seconds_and_restart_keeps_it (test_harness.LifecycleTests.test_09_interview_is_1800_seconds_and_restart_keeps_it) ... ok
+test_02_resume_targets_specific_thread (test_harness.ProtocolTests.test_02_resume_targets_specific_thread) ... ok
+test_04_internal_event_visibility (test_harness.StorageTests.test_04_internal_event_visibility) ... ok
+test_06_each_fact_reachable_without_secret_prerequisite (test_podcast_profile.DisclosureProfileTests.test_06_each_fact_reachable_without_secret_prerequisite) ... ok
+test_02_nontext_scripts_not_executed_or_copied (test_podcast_profile.PreparationAndEvidenceTests.test_02_nontext_scripts_not_executed_or_copied) ... ok
+test_10_telemetry_alone_does_not_score (test_podcast_profile.PreparationAndEvidenceTests.test_10_telemetry_alone_does_not_score) ... ok
+test_06_demo_is_not_real_usage (test_podcast_profile.UsageTests.test_06_demo_is_not_real_usage) ... ok
+test_04_no_swapping_after_start (test_problem_packs.ProblemPackTests.test_04_no_swapping_after_start) ... ok
+test_12_unknown_requirement_rejected (test_problem_packs.ProblemPackTests.test_12_unknown_requirement_rejected) ... ok
+test_02_global_request_only_reveals_overview (test_problem_packs.StakeholderTests.test_02_global_request_only_reveals_overview) ... ok
+test_10_fixed_fact_is_rendered_verbatim (test_problem_packs.StakeholderTests.test_10_fixed_fact_is_rendered_verbatim) ... ok
+test_06_post_submit_confirmation_blocked (test_v5_features.ConfirmationTests.test_06_post_submit_confirmation_blocked) ... ok
+test_04_specific_rule_directly_reachable (test_v5_features.ContextTests.test_04_specific_rule_directly_reachable) ... ok
+test_12_first_simple_question_receives_context (test_v5_features.ContextTests.test_12_first_simple_question_receives_context) ... ok
+test_08_no_run_no_high_T1 (test_v5_features.EvidenceReviewTests.test_08_no_run_no_high_T1) ... ok
+test_04_probe_generation_blocked_before_submission (test_v5_features.PredictionAndFeedbackTests.test_04_probe_generation_blocked_before_submission) ... ok
+test_12_no_hidden_data_claim_from_unasked (test_v5_features.PredictionAndFeedbackTests.test_12_no_hidden_data_claim_from_unasked) ... ok
+test_02_live_benchmark_blocked_mid_exam (test_v5_features.QualityFixtureTests.test_02_live_benchmark_blocked_mid_exam) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 261.924s
+
+OK

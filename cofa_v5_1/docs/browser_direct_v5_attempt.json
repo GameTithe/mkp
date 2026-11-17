@@ -1,0 +1,8 @@
+{
+  "live_llm": false,
+  "mode": "DEMO",
+  "steps": [],
+  "errors": [],
+  "passed": false,
+  "failure": "Browser policy: net::ERR_BLOCKED_BY_ADMINISTRATOR for direct loopback navigation. No direct live-browser path verified."
+}

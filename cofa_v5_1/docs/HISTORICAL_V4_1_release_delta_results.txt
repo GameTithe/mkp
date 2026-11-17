@@ -1,0 +1,39 @@
+test_01_default_progressive_and_limit (test_podcast_profile.DisclosureProfileTests.test_01_default_progressive_and_limit) ... ok
+test_02_summary_never_reveals_unasked_facts (test_podcast_profile.DisclosureProfileTests.test_02_summary_never_reveals_unasked_facts) ... ok
+test_03_repeated_global_request_does_not_unlock_rest (test_podcast_profile.DisclosureProfileTests.test_03_repeated_global_request_does_not_unlock_rest) ... ok
+test_04_server_caps_router_overdisclosure (test_podcast_profile.DisclosureProfileTests.test_04_server_caps_router_overdisclosure) ... ok
+test_05_previously_known_facts_not_counted_as_new (test_podcast_profile.DisclosureProfileTests.test_05_previously_known_facts_not_counted_as_new) ... ok
+test_06_each_fact_reachable_without_secret_prerequisite (test_podcast_profile.DisclosureProfileTests.test_06_each_fact_reachable_without_secret_prerequisite) ... ok
+test_07_explicit_open_learning_mode_available (test_podcast_profile.DisclosureProfileTests.test_07_explicit_open_learning_mode_available) ... ok
+test_08_invalid_policy_is_rejected (test_podcast_profile.DisclosureProfileTests.test_08_invalid_policy_is_rejected) ... ok
+test_09_summary_integration_only_known (test_podcast_profile.DisclosureProfileTests.test_09_summary_integration_only_known) ... ok
+test_10_llm_router_large_response_still_capped (test_podcast_profile.DisclosureProfileTests.test_10_llm_router_large_response_still_capped) ... ok
+test_11_router_receives_known_context_not_answer_code (test_podcast_profile.DisclosureProfileTests.test_11_router_receives_known_context_not_answer_code) ... ok
+test_12_summary_empty_does_not_manufacture_requirement (test_podcast_profile.DisclosureProfileTests.test_12_summary_empty_does_not_manufacture_requirement) ... ok
+test_01_text_copied_and_hash_recorded (test_podcast_profile.PreparationAndEvidenceTests.test_01_text_copied_and_hash_recorded) ... ok
+test_02_nontext_scripts_not_executed_or_copied (test_podcast_profile.PreparationAndEvidenceTests.test_02_nontext_scripts_not_executed_or_copied) ... ok
+test_03_after_start_import_blocked (test_podcast_profile.PreparationAndEvidenceTests.test_03_after_start_import_blocked) ... ok
+test_04_existing_kit_not_overwritten (test_podcast_profile.PreparationAndEvidenceTests.test_04_existing_kit_not_overwritten) ... ok
+test_05_symlink_rejected (test_podcast_profile.PreparationAndEvidenceTests.test_05_symlink_rejected) ... ok
+test_06_obvious_tokens_and_env_files_rejected (test_podcast_profile.PreparationAndEvidenceTests.test_06_obvious_tokens_and_env_files_rejected) ... ok
+test_07_start_freezes_declared_preparation (test_podcast_profile.PreparationAndEvidenceTests.test_07_start_freezes_declared_preparation) ... ok
+test_08_current_exam_folder_not_importable (test_podcast_profile.PreparationAndEvidenceTests.test_08_current_exam_folder_not_importable) ... ok
+test_09_empty_origin_or_purpose_rejected (test_podcast_profile.PreparationAndEvidenceTests.test_09_empty_origin_or_purpose_rejected) ... ok
+test_10_telemetry_alone_does_not_score (test_podcast_profile.PreparationAndEvidenceTests.test_10_telemetry_alone_does_not_score) ... ok
+test_11_long_resource_evidence_is_chunked_without_loss (test_podcast_profile.PreparationAndEvidenceTests.test_11_long_resource_evidence_is_chunked_without_loss) ... ok
+test_12_demo_resources_present_and_no_cost_guessed (test_podcast_profile.PreparationAndEvidenceTests.test_12_demo_resources_present_and_no_cost_guessed) ... ok
+test_01_stream_and_final_summary_not_double_counted (test_podcast_profile.UsageTests.test_01_stream_and_final_summary_not_double_counted) ... ok
+test_02_roles_separate_candidate_and_exam_overhead (test_podcast_profile.UsageTests.test_02_roles_separate_candidate_and_exam_overhead) ... ok
+test_03_missing_usage_is_unknown_not_zero (test_podcast_profile.UsageTests.test_03_missing_usage_is_unknown_not_zero) ... ok
+test_04_malformed_counts_not_accepted (test_podcast_profile.UsageTests.test_04_malformed_counts_not_accepted) ... ok
+test_05_partial_stream_reports_known_sum_and_missing_turn (test_podcast_profile.UsageTests.test_05_partial_stream_reports_known_sum_and_missing_turn) ... ok
+test_06_demo_is_not_real_usage (test_podcast_profile.UsageTests.test_06_demo_is_not_real_usage) ... ok
+test_07_preflight_before_session_excluded (test_podcast_profile.UsageTests.test_07_preflight_before_session_excluded) ... ok
+test_08_nested_cache_is_subset (test_podcast_profile.UsageTests.test_08_nested_cache_is_subset) ... ok
+test_09_multiple_turns_accumulate (test_podcast_profile.UsageTests.test_09_multiple_turns_accumulate) ... ok
+test_10_unfinished_call_not_falsely_successful (test_podcast_profile.UsageTests.test_10_unfinished_call_not_falsely_successful) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.059s
+
+OK

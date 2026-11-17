@@ -1,0 +1,15 @@
+test_01_candidate_claim_is_preserved (test_v5_features.ConfirmationTests.test_01_candidate_claim_is_preserved) ... ok
+test_02_wrong_assumption_corrected_not_agreed (test_v5_features.ConfirmationTests.test_02_wrong_assumption_corrected_not_agreed) ... ok
+test_03_unspecified_is_not_approved (test_v5_features.ConfirmationTests.test_03_unspecified_is_not_approved) ... ok
+test_04_missing_item_rejected (test_v5_features.ConfirmationTests.test_04_missing_item_rejected) ... ok
+test_05_unknown_fact_rejected (test_v5_features.ConfirmationTests.test_05_unknown_fact_rejected) ... ok
+test_06_post_submit_confirmation_blocked (test_v5_features.ConfirmationTests.test_06_post_submit_confirmation_blocked) ... ok
+test_07_demo_never_claims_semantic_understanding (test_v5_features.ConfirmationTests.test_07_demo_never_claims_semantic_understanding) ... ok
+test_08_link_requires_actual_event (test_v5_features.ConfirmationTests.test_08_link_requires_actual_event) ... ok
+test_09_many_corrections_are_deferred_not_approved (test_v5_features.ConfirmationTests.test_09_many_corrections_are_deferred_not_approved) ... ok
+test_10_multi_item_size_limit (test_v5_features.ConfirmationTests.test_10_multi_item_size_limit) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.561s
+
+OK

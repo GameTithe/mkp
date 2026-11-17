@@ -1,0 +1,23 @@
+{
+  "http_end_to_end": "passed",
+  "actions": [
+    "problem_list",
+    "problem_select",
+    "problem_validate",
+    "start",
+    "ask",
+    "chat",
+    "submit",
+    "qa_start",
+    "qa_answer",
+    "qa_finish",
+    "evaluate",
+    "problem_debrief"
+  ],
+  "mode": "demo",
+  "real_llm_called": false,
+  "private_case_total": 48,
+  "stub_passed": 0,
+  "browser_rendering_checked": false,
+  "transport": "actual authenticated loopback HTTP with urllib"
+}

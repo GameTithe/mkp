@@ -1,0 +1,9 @@
+test_01_fixture_count_and_no_human_claim (test_v5_features.QualityFixtureTests.test_01_fixture_count_and_no_human_claim) ... ok
+test_02_live_benchmark_blocked_mid_exam (test_v5_features.QualityFixtureTests.test_02_live_benchmark_blocked_mid_exam) ... ok
+test_03_not_claimed_human_calibration (test_v5_features.QualityFixtureTests.test_03_not_claimed_human_calibration) ... ok
+test_04_feedback_ui_and_routing_exist (test_v5_features.QualityFixtureTests.test_04_feedback_ui_and_routing_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.175s
+
+OK

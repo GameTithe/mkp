@@ -1,0 +1,452 @@
+{
+  "validation": {
+    "id": "client-frame-regression",
+    "version": "2.0.0",
+    "title": "FrameScope — 클라이언트 성능 회귀 분석",
+    "track": "client",
+    "ready": true,
+    "description": "이전·현재 빌드의 프레임 로그를 비교하는 로컬 분석 도구. 창작 모의문제이며 실제 출제 복원 아님.",
+    "stakeholder_name": "윤서 · 클라이언트 성능 QA 담당자 (가상)",
+    "valid": true,
+    "digest": "5dcef4e0f4bb93a76bf7dfbb568a33c3a983296969edb0340742f6454d5bcd96",
+    "cases": {
+      "public": 4,
+      "private": 48
+    },
+    "automated_requirement_ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10"
+    ],
+    "manual_or_uncovered_requirement_ids": [
+      "R11"
+    ],
+    "warning": "문제팩은 신뢰할 수 있는 출제자가 작성해야 합니다. 검증 명령은 로컬 코드를 실행합니다."
+  },
+  "reference_passed": true,
+  "result": {
+    "problem_id": "client-frame-regression",
+    "problem_version": "2.0.0",
+    "suite": "private",
+    "passed": 48,
+    "total": 48,
+    "all_passed": true,
+    "cases": [
+      {
+        "id": "empty",
+        "requirement_ids": [
+          "R01",
+          "R09"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "basic-regression",
+        "requirement_ids": [
+          "R05",
+          "R06",
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "stable",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "absolute-alone-insufficient",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "relative-alone-insufficient",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "inclusive-boundary",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "no-rounding-before-decision",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "zero-baseline-regression",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "zero-baseline-small",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "both-zero",
+        "requirement_ids": [
+          "R06",
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "improvement",
+        "requirement_ids": [
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "gpu-bottleneck",
+        "requirement_ids": [
+          "R05",
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "balanced-bottleneck",
+        "requirement_ids": [
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "gpu-inclusive-one-ms",
+        "requirement_ids": [
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "cpu-inclusive-one-ms",
+        "requirement_ids": [
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "warmup-excluded",
+        "requirement_ids": [
+          "R04",
+          "R09"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "warmup-only",
+        "requirement_ids": [
+          "R04"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "minimum-samples",
+        "requirement_ids": [
+          "R04"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "candidate-only",
+        "requirement_ids": [
+          "R04"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "baseline-only",
+        "requirement_ids": [
+          "R04",
+          "R07"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "duplicate-first-valid",
+        "requirement_ids": [
+          "R03",
+          "R09"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "invalid-does-not-reserve-key",
+        "requirement_ids": [
+          "R02",
+          "R03"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "warmup-duplicate-order",
+        "requirement_ids": [
+          "R03",
+          "R04"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "normalization",
+        "requirement_ids": [
+          "R02"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "invalid-row-types",
+        "requirement_ids": [
+          "R02",
+          "R09",
+          "R10"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "upper-limit-valid",
+        "requirement_ids": [
+          "R02"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "nearest-rank-20",
+        "requirement_ids": [
+          "R05",
+          "R06"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "nearest-rank-21",
+        "requirement_ids": [
+          "R05"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "max-not-sum",
+        "requirement_ids": [
+          "R05"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "deterministic-order",
+        "requirement_ids": [
+          "R08"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "combined-filter",
+        "requirement_ids": [
+          "R08"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "unknown-scenario",
+        "requirement_ids": [
+          "R08"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "case-sensitive-scenario",
+        "requirement_ids": [
+          "R02",
+          "R08"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "sensitive-extras",
+        "requirement_ids": [
+          "R10"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "filter-preserves-warnings",
+        "requirement_ids": [
+          "R08",
+          "R09"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "utf8-bom",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "id": "bad-schema",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "boolean-version",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "non-array-frames",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "wrong-top",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "missing-schema",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "malformed-json",
+        "requirement_ids": [
+          "R01",
+          "R10"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "nonstandard-nan",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "non-utf8",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "missing-file",
+        "requirement_ids": [
+          "R01",
+          "R10"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "bad-status",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "missing-argument",
+        "requirement_ids": [
+          "R01"
+        ],
+        "passed": true,
+        "returncode": 2
+      },
+      {
+        "id": "sub-micro-ms-rejected",
+        "requirement_ids": [
+          "R02"
+        ],
+        "passed": true,
+        "returncode": 0
+      }
+    ],
+    "manual_checks_not_automatically_certified": [
+      "RUNBOOK.md의 실행·재현 절차",
+      "의존성/환경 재현 가능성",
+      "원본 비수정·민감정보 미노출·외부 전송 부재 코드 검토",
+      "역할 분리와 테스트/계약 경계",
+      "프레임 측정으로 인과관계를 단정하지 않는 한계 설명"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "shard": 3,
+  "tests_run": 21,
+  "passed": true,
+  "skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 206.814,
+  "test_ids": [
+    "test_harness.EvaluationTests.test_04_rating_out_of_range_is_rejected",
+    "test_harness.FilesystemTests.test_02_path_traversal_and_secret_editor_rejected",
+    "test_harness.LifecycleTests.test_04_seed_is_not_accepted_as_solution",
+    "test_harness.LifecycleTests.test_12_main_and_stakeholder_conversations_are_separate",
+    "test_harness.ProtocolTests.test_05_empty_final_response_is_not_success",
+    "test_podcast_profile.DisclosureProfileTests.test_01_default_progressive_and_limit",
+    "test_podcast_profile.DisclosureProfileTests.test_09_summary_integration_only_known",
+    "test_podcast_profile.PreparationAndEvidenceTests.test_05_symlink_rejected",
+    "test_podcast_profile.UsageTests.test_01_stream_and_final_summary_not_double_counted",
+    "test_podcast_profile.UsageTests.test_09_multiple_turns_accumulate",
+    "test_problem_packs.ProblemPackTests.test_07_draft_not_runnable",
+    "test_problem_packs.ProblemPackTests.test_15_symlink_pack_rejected",
+    "test_problem_packs.StakeholderTests.test_05_prompt_excludes_solution_and_tests",
+    "test_v5_features.ConfirmationTests.test_01_candidate_claim_is_preserved",
+    "test_v5_features.ConfirmationTests.test_09_many_corrections_are_deferred_not_approved",
+    "test_v5_features.ContextTests.test_07_internal_decision_not_in_candidate_events",
+    "test_v5_features.EvidenceReviewTests.test_03_unknown_reference_rejected",
+    "test_v5_features.EvidenceReviewTests.test_11_context_limit_holds_without_cutting",
+    "test_v5_features.PredictionAndFeedbackTests.test_07_feedback_unavailable_during_interview",
+    "test_v5_features.PredictionAndFeedbackTests.test_15_feedback_no_unknown_quote",
+    "test_v5_features.StructuredPipelineTests.test_01_complete_v5_pipeline_with_explicit_synthetic_provider"
+  ]
+}

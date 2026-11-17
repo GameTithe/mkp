@@ -1,0 +1,31 @@
+test_08_binary_is_declared_not_silently_inspected (test_harness.EvaluationTests.test_08_binary_is_declared_not_silently_inspected) ... ok
+test_06_symlink_escape_rejected (test_harness.FilesystemTests.test_06_symlink_escape_rejected) ... ok
+test_08_post_submit_development_is_blocked (test_harness.LifecycleTests.test_08_post_submit_development_is_blocked) ... ok
+test_01_captures_unknown_events_and_full_tool_output (test_harness.ProtocolTests.test_01_captures_unknown_events_and_full_tool_output) ... ok
+test_03_full_unicode_export (test_harness.StorageTests.test_03_full_unicode_export) ... ok
+test_05_previously_known_facts_not_counted_as_new (test_podcast_profile.DisclosureProfileTests.test_05_previously_known_facts_not_counted_as_new) ... ok
+test_01_text_copied_and_hash_recorded (test_podcast_profile.PreparationAndEvidenceTests.test_01_text_copied_and_hash_recorded) ... ok
+test_09_empty_origin_or_purpose_rejected (test_podcast_profile.PreparationAndEvidenceTests.test_09_empty_origin_or_purpose_rejected) ... ok
+test_05_partial_stream_reports_known_sum_and_missing_turn (test_podcast_profile.UsageTests.test_05_partial_stream_reports_known_sum_and_missing_turn) ... ok
+test_03_reselection_keeps_backup (test_problem_packs.ProblemPackTests.test_03_reselection_keeps_backup) ... ok
+test_11_public_checks_do_not_certify_business_rules (test_problem_packs.ProblemPackTests.test_11_public_checks_do_not_certify_business_rules) ... ok
+test_01_question_discloses_only_relevant_facts (test_problem_packs.StakeholderTests.test_01_question_discloses_only_relevant_facts) ... ok
+test_09_history_provided_to_followup_router (test_problem_packs.StakeholderTests.test_09_history_provided_to_followup_router) ... ok
+test_05_no_finding_still_reserves_candidate_answer (test_v51_stabilization.BalancedContextTests.test_05_no_finding_still_reserves_candidate_answer) ... ok
+test_05_expected_unobserved_is_distinct (test_v51_stabilization.BenchmarkSummaryTests.test_05_expected_unobserved_is_distinct) ... ok
+test_05_null_and_numeric_disagreement_has_own_reason (test_v51_stabilization.BoundaryReviewTests.test_05_null_and_numeric_disagreement_has_own_reason) ... ok
+test_06_tampered_submission_has_only_blocked_notice (test_v51_stabilization.FailureFeedbackTests.test_06_tampered_submission_has_only_blocked_notice) ... ok
+test_02_original_context_replayed_not_later_topics (test_v51_stabilization.ReconsiderationTests.test_02_original_context_replayed_not_later_topics) ... ok
+test_02_wrong_assumption_corrected_not_agreed (test_v5_features.ConfirmationTests.test_02_wrong_assumption_corrected_not_agreed) ... ok
+test_10_multi_item_size_limit (test_v5_features.ConfirmationTests.test_10_multi_item_size_limit) ... ok
+test_08_no_code_in_router_input (test_v5_features.ContextTests.test_08_no_code_in_router_input) ... ok
+test_04_supported_requires_evidence (test_v5_features.EvidenceReviewTests.test_04_supported_requires_evidence) ... ok
+test_12_supported_negative_grade_can_be_zero (test_v5_features.EvidenceReviewTests.test_12_supported_negative_grade_can_be_zero) ... ok
+test_08_automatic_feedback_and_no_demo_scores (test_v5_features.PredictionAndFeedbackTests.test_08_automatic_feedback_and_no_demo_scores) ... ok
+test_16_feedback_unknown_requirement_rejected (test_v5_features.PredictionAndFeedbackTests.test_16_feedback_unknown_requirement_rejected) ... ok
+test_02_feedback_rejects_another_assessment_bundle (test_v5_features.StructuredPipelineTests.test_02_feedback_rejects_another_assessment_bundle) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 240.864s
+
+OK

@@ -1,0 +1,11 @@
+PASS CLI preparation import
+PASS HTML served with usage controls
+PASS usage API rejects unauthenticated request
+PASS 120-minute development begins
+PASS global question shows only overview
+PASS specific question and confirmed-only summary
+PASS role-separated usage without invented tokens
+PASS frozen submission and separate 30-minute interview
+PASS DEMO report: no capability score, 0/48 starter tests
+PASS HTML/JSON reports contain separated metrics
+PASS debrief released after evaluation

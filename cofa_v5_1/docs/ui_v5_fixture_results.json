@@ -1,0 +1,16 @@
+{
+  "kind": "isolated_browser_DOM_with_mock_API",
+  "live_backend": false,
+  "live_llm": false,
+  "steps": [
+    "requirements tab routes and displays response",
+    "feedback controls gated during development",
+    "post-exam feedback panel opens",
+    "coach tab routes and displays response",
+    "mobile width render inspected"
+  ],
+  "errors": [],
+  "mobile_document_width": 390,
+  "mobile_viewport_width": 390,
+  "passed": true
+}

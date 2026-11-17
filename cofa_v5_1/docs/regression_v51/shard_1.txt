@@ -1,0 +1,31 @@
+test_02_unknown_evidence_id_is_rejected (test_harness.EvaluationTests.test_02_unknown_evidence_id_is_rejected) ... ok
+test_10_invalid_model_map_fails_closed (test_harness.EvaluationTests.test_10_invalid_model_map_fails_closed) ... ok
+test_02_start_does_not_reset_existing_session (test_harness.LifecycleTests.test_02_start_does_not_reset_existing_session) ... ok
+test_10_late_answer_is_not_in_scored_transcript (test_harness.LifecycleTests.test_10_late_answer_is_not_in_scored_transcript) ... ok
+test_03_nonzero_codex_exit_is_failure (test_harness.ProtocolTests.test_03_nonzero_codex_exit_is_failure) ... ok
+test_05_operation_lock_rejects_concurrent_mutator (test_harness.StorageTests.test_05_operation_lock_rejects_concurrent_mutator) ... ok
+test_07_explicit_open_learning_mode_available (test_podcast_profile.DisclosureProfileTests.test_07_explicit_open_learning_mode_available) ... ok
+test_03_after_start_import_blocked (test_podcast_profile.PreparationAndEvidenceTests.test_03_after_start_import_blocked) ... ok
+test_11_long_resource_evidence_is_chunked_without_loss (test_podcast_profile.PreparationAndEvidenceTests.test_11_long_resource_evidence_is_chunked_without_loss) ... ok
+test_07_preflight_before_session_excluded (test_podcast_profile.UsageTests.test_07_preflight_before_session_excluded) ... ok
+test_05_pack_tamper_blocks_stakeholder_and_submit (test_problem_packs.ProblemPackTests.test_05_pack_tamper_blocks_stakeholder_and_submit) ... ok
+test_13_private_path_inside_public_rejected (test_problem_packs.ProblemPackTests.test_13_private_path_inside_public_rejected) ... ok
+test_03_answer_code_request_does_not_disclose (test_problem_packs.StakeholderTests.test_03_answer_code_request_does_not_disclose) ... ok
+test_11_llm_mode_routes_through_provider_without_keyword_fallback (test_problem_packs.StakeholderTests.test_11_llm_mode_routes_through_provider_without_keyword_fallback) ... ok
+test_07_intent_and_technique_priorities (test_v51_stabilization.BalancedContextTests.test_07_intent_and_technique_priorities) ... ok
+test_07_partial_completion_not_pass (test_v51_stabilization.BenchmarkSummaryTests.test_07_partial_completion_not_pass) ... ok
+test_07_environment_has_a_separate_category (test_v51_stabilization.BoundaryReviewTests.test_07_environment_has_a_separate_category) ... ok
+test_08_missing_validation_is_not_silent_pass (test_v51_stabilization.FailureFeedbackTests.test_08_missing_validation_is_not_silent_pass) ... ok
+test_04_failure_can_be_retried_and_original_preserved (test_v51_stabilization.ReconsiderationTests.test_04_failure_can_be_retried_and_original_preserved) ... ok
+test_04_missing_item_rejected (test_v5_features.ConfirmationTests.test_04_missing_item_rejected) ... ok
+test_02_overview_is_not_spec (test_v5_features.ContextTests.test_02_overview_is_not_spec) ... ok
+test_10_cap_still_applies_to_unbounded_router (test_v5_features.ContextTests.test_10_cap_still_applies_to_unbounded_router) ... ok
+test_06_repeated_scores_not_averaged (test_v5_features.EvidenceReviewTests.test_06_repeated_scores_not_averaged) ... ok
+test_02_prediction_after_first_human_answer (test_v5_features.PredictionAndFeedbackTests.test_02_prediction_after_first_human_answer) ... ok
+test_10_coaching_not_scored (test_v5_features.PredictionAndFeedbackTests.test_10_coaching_not_scored) ... ok
+test_18_probe_invalid_args_rejected (test_v5_features.PredictionAndFeedbackTests.test_18_probe_invalid_args_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 336.104s
+
+OK

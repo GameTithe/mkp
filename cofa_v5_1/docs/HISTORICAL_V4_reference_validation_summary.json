@@ -1,0 +1,17 @@
+{
+  "problem_id": "client-frame-regression",
+  "problem_version": "1.0.0",
+  "reference_passed": true,
+  "case_total": 48,
+  "case_passed": 48,
+  "reference_unit_tests_passed": 6,
+  "fixed_expected_results": true,
+  "manual_checks_not_automatically_certified": [
+    "RUNBOOK.md의 실행·재현 절차",
+    "의존성/환경 재현 가능성",
+    "원본 비수정·민감정보 미노출·외부 전송 부재 코드 검토",
+    "역할 분리와 테스트/계약 경계",
+    "프레임 측정으로 인과관계를 단정하지 않는 한계 설명"
+  ],
+  "real_llm_called": false
+}

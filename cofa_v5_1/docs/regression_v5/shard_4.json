@@ -1,0 +1,32 @@
+{
+  "shard": 4,
+  "tests_run": 21,
+  "passed": true,
+  "skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 211.0,
+  "test_ids": [
+    "test_harness.EvaluationTests.test_05_cognition_needs_candidate_answer_not_ai_claim",
+    "test_harness.FilesystemTests.test_03_merge_detects_conflict_without_overwrite",
+    "test_harness.LifecycleTests.test_05_submission_uses_copy_not_live_workspace",
+    "test_harness.LifecycleTests.test_13_empty_candidate_tests_not_marked_passed",
+    "test_harness.ProtocolTests.test_06_parallel_agent_workspaces_are_separate",
+    "test_podcast_profile.DisclosureProfileTests.test_02_summary_never_reveals_unasked_facts",
+    "test_podcast_profile.DisclosureProfileTests.test_10_llm_router_large_response_still_capped",
+    "test_podcast_profile.PreparationAndEvidenceTests.test_06_obvious_tokens_and_env_files_rejected",
+    "test_podcast_profile.UsageTests.test_02_roles_separate_candidate_and_exam_overhead",
+    "test_podcast_profile.UsageTests.test_10_unfinished_call_not_falsely_successful",
+    "test_problem_packs.ProblemPackTests.test_08_new_session_keeps_previous",
+    "test_problem_packs.ProblemPackTests.test_16_debrief_only_after_evaluation",
+    "test_problem_packs.StakeholderTests.test_06_main_only_sees_disclosed_answers",
+    "test_v5_features.ConfirmationTests.test_02_wrong_assumption_corrected_not_agreed",
+    "test_v5_features.ConfirmationTests.test_10_multi_item_size_limit",
+    "test_v5_features.ContextTests.test_08_no_code_in_router_input",
+    "test_v5_features.EvidenceReviewTests.test_04_supported_requires_evidence",
+    "test_v5_features.EvidenceReviewTests.test_12_supported_negative_grade_can_be_zero",
+    "test_v5_features.PredictionAndFeedbackTests.test_08_automatic_feedback_and_no_demo_scores",
+    "test_v5_features.PredictionAndFeedbackTests.test_16_feedback_unknown_requirement_rejected",
+    "test_v5_features.StructuredPipelineTests.test_02_feedback_rejects_another_assessment_bundle"
+  ]
+}

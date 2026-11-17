@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "mode": "DEMO",
+  "steps": [
+    {
+      "step": "token gate",
+      "passed": true
+    },
+    {
+      "step": "v5 HTML and controls served",
+      "passed": true
+    },
+    {
+      "step": "feedback before exam blocked",
+      "passed": true
+    },
+    {
+      "step": "120-minute development started",
+      "passed": true
+    },
+    {
+      "step": "broad requests limited, concrete question answered",
+      "passed": true
+    },
+    {
+      "step": "candidate requirement review and DEMO limitation",
+      "passed": true
+    },
+    {
+      "step": "real recorded event linked without automatic credit",
+      "passed": true
+    },
+    {
+      "step": "assessment before finish blocked",
+      "passed": true
+    },
+    {
+      "step": "frozen submission",
+      "passed": true
+    },
+    {
+      "step": "submission validation and 30-minute interview",
+      "passed": true
+    },
+    {
+      "step": "prediction required before running probe",
+      "passed": true
+    },
+    {
+      "step": "frozen program actually executed, reflection question",
+      "passed": true
+    },
+    {
+      "step": "interview finished",
+      "passed": true
+    },
+    {
+      "step": "automatic post-exam feedback, no DEMO ability score",
+      "passed": true
+    },
+    {
+      "step": "coaching and feedback retry do not change score",
+      "passed": true
+    },
+    {
+      "step": "answer disclosure after assessment",
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 88.542,
+  "functional_tests": [
+    {
+      "passed": 0,
+      "total": 48
+    }
+  ],
+  "ability_score": null,
+  "feedback_status": "demo_factual_only",
+  "live_llm_tested": false,
+  "browser_rendering_tested": false,
+  "platform": "linux"
+}

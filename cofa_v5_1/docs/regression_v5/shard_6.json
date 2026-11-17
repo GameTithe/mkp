@@ -1,0 +1,31 @@
+{
+  "shard": 6,
+  "tests_run": 20,
+  "passed": true,
+  "skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 291.713,
+  "test_ids": [
+    "test_harness.EvaluationTests.test_07_eval_requires_finished_interview",
+    "test_harness.FilesystemTests.test_05_readonly_worker_cannot_be_merged",
+    "test_harness.LifecycleTests.test_07_changed_manifest_blocks_evaluation",
+    "test_harness.LifecycleTests.test_15_interview_failure_does_not_lose_answer",
+    "test_harness.StorageTests.test_02_hash_chain_detects_modification",
+    "test_podcast_profile.DisclosureProfileTests.test_04_server_caps_router_overdisclosure",
+    "test_podcast_profile.DisclosureProfileTests.test_12_summary_empty_does_not_manufacture_requirement",
+    "test_podcast_profile.PreparationAndEvidenceTests.test_08_current_exam_folder_not_importable",
+    "test_podcast_profile.UsageTests.test_04_malformed_counts_not_accepted",
+    "test_problem_packs.ProblemPackTests.test_02_selected_workspace_has_no_answers",
+    "test_problem_packs.ProblemPackTests.test_10_mutated_regression_rule_is_caught",
+    "test_problem_packs.ProblemPackTests.test_18_second_problem_replaces_content_without_engine_changes",
+    "test_problem_packs.StakeholderTests.test_08_model_cannot_inject_free_text_into_reply",
+    "test_v5_features.ConfirmationTests.test_04_missing_item_rejected",
+    "test_v5_features.ContextTests.test_02_overview_is_not_spec",
+    "test_v5_features.ContextTests.test_10_cap_still_applies_to_unbounded_router",
+    "test_v5_features.EvidenceReviewTests.test_06_repeated_scores_not_averaged",
+    "test_v5_features.PredictionAndFeedbackTests.test_02_prediction_after_first_human_answer",
+    "test_v5_features.PredictionAndFeedbackTests.test_10_coaching_not_scored",
+    "test_v5_features.PredictionAndFeedbackTests.test_18_probe_invalid_args_rejected"
+  ]
+}

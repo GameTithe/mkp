@@ -1,0 +1,44 @@
+{
+  "development_minutes": 120,
+  "interview_minutes": 30,
+  "codex_command": [
+    "codex"
+  ],
+  "model": null,
+  "call_timeout_seconds": 600,
+  "max_parallel": 4,
+  "evidence_chunk_characters": 18000,
+  "evaluation_max_context_characters": 70000,
+  "check_commands": [
+    {
+      "name": "독립 CLI 인수 테스트",
+      "scope": "acceptance",
+      "argv": [
+        "{python}",
+        "{root}/acceptance/run.py",
+        "--workspace",
+        "{workspace}"
+      ]
+    },
+    {
+      "name": "응시자 테스트",
+      "scope": "candidate",
+      "argv": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "command_timeout_seconds": 90,
+  "stakeholder_profile": "contextual",
+  "semantic_evidence_review": true,
+  "judge_repetitions": 2,
+  "interview_prediction": true,
+  "auto_feedback": true,
+  "adjudicate_score_boundaries": true
+}

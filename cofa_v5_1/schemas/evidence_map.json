@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "criterion": {
+            "type": "string"
+          },
+          "observation": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "polarity": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "uncertain"
+            ]
+          },
+          "actor": {
+            "type": "string",
+            "enum": [
+              "candidate",
+              "ai",
+              "tool",
+              "artifact",
+              "mixed"
+            ]
+          }
+        },
+        "required": [
+          "criterion",
+          "observation",
+          "evidence_ids",
+          "polarity",
+          "actor"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "findings",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

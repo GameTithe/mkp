@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "client-frame-regression",
+  "version": "2.0.1",
+  "title": "FrameScope — 클라이언트 성능 회귀 분석",
+  "track": "client",
+  "ready": true,
+  "description": "이전·현재 빌드의 프레임 로그를 비교하는 로컬 분석 도구. 창작 모의문제이며 실제 출제 복원 아님.",
+  "public_dir": "public",
+  "truth": "private/truth.json",
+  "solution": "private/SOLUTION.md",
+  "interview_guide": "private/INTERVIEW_GUIDE.md",
+  "reference_dir": "private/reference",
+  "stakeholder_name": "윤서 · 클라이언트 성능 QA 담당자 (가상)",
+  "checks": [
+    {
+      "name": "공개 입출력 스모크 테스트",
+      "phase": "development",
+      "scope": "problem_public",
+      "argv": [
+        "{python}",
+        "{root}/tools/case_runner.py",
+        "--pack",
+        "{pack}",
+        "--workspace",
+        "{workspace}",
+        "--suite",
+        "public"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "name": "문제팩 최종 인수 테스트",
+      "phase": "submission",
+      "scope": "problem_hidden",
+      "argv": [
+        "{python}",
+        "{root}/tools/case_runner.py",
+        "--pack",
+        "{pack}",
+        "--workspace",
+        "{workspace}",
+        "--suite",
+        "private"
+      ],
+      "timeout_seconds": 300
+    },
+    {
+      "name": "응시자 테스트",
+      "phase": "both",
+      "scope": "candidate",
+      "argv": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "suites": {
+    "public": "public_cases/cases.json",
+    "private": "private/cases/cases.json"
+  },
+  "runner": {
+    "argv": [
+      "{python}",
+      "{workspace}/app.py"
+    ],
+    "case_timeout_seconds": 5
+  },
+  "manual_checks": [
+    "RUNBOOK.md의 실행·재현 절차",
+    "의존성/환경 재현 가능성",
+    "원본 비수정·민감정보 미노출·외부 전송 부재 코드 검토",
+    "역할 분리와 테스트/계약 경계",
+    "프레임 측정으로 인과관계를 단정하지 않는 한계 설명"
+  ],
+  "authoring_note": "자동 검사는 전부 truth의 requirement_ids와 연결됨. 구현 구조는 예시이며 참조 코드와 동일할 필요 없음.",
+  "interview_probes": "private/interview_probes.json",
+  "stakeholder_benchmark": "private/quality_routes.json"
+}

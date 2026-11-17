@@ -1,0 +1,120 @@
+{
+  "mode": "DEMO",
+  "transport": "real localhost HTTP via urllib; no browser rendering",
+  "steps": [
+    {
+      "step": "CLI preparation import",
+      "passed": true
+    },
+    {
+      "step": "HTML served with usage controls",
+      "passed": true
+    },
+    {
+      "step": "usage API rejects unauthenticated request",
+      "passed": true
+    },
+    {
+      "step": "120-minute development begins",
+      "passed": true
+    },
+    {
+      "step": "global question shows only overview",
+      "passed": true
+    },
+    {
+      "step": "specific question and confirmed-only summary",
+      "passed": true
+    },
+    {
+      "step": "role-separated usage without invented tokens",
+      "passed": true
+    },
+    {
+      "step": "frozen submission and separate 30-minute interview",
+      "passed": true
+    },
+    {
+      "step": "DEMO report: no capability score, 0/48 starter tests",
+      "passed": true,
+      "resource_groups": {
+        "development": {
+          "label": "응시자 개발 (메인·병렬·개발 중 검토)",
+          "calls": 1,
+          "calls_with_usage": 0,
+          "calls_without_usage": 1,
+          "unmeasured_turns": 1,
+          "failed_calls": 0,
+          "unfinished_calls": 0,
+          "demo_calls": 1,
+          "known_input_tokens": null,
+          "known_cached_input_tokens": null,
+          "known_output_tokens": null,
+          "known_total_tokens": null,
+          "usage_complete": false,
+          "sum_completed_call_seconds": 0.004
+        },
+        "assessment": {
+          "label": "환경 운영 (담당자·제출 후 검토·면담·분석·채점)",
+          "calls": 15,
+          "calls_with_usage": 0,
+          "calls_without_usage": 15,
+          "unmeasured_turns": 15,
+          "failed_calls": 0,
+          "unfinished_calls": 0,
+          "demo_calls": 15,
+          "known_input_tokens": null,
+          "known_cached_input_tokens": null,
+          "known_output_tokens": null,
+          "known_total_tokens": null,
+          "usage_complete": false,
+          "sum_completed_call_seconds": 0.077
+        },
+        "setup": {
+          "label": "연결 점검",
+          "calls": 0,
+          "calls_with_usage": 0,
+          "calls_without_usage": 0,
+          "unmeasured_turns": 0,
+          "failed_calls": 0,
+          "unfinished_calls": 0,
+          "demo_calls": 0,
+          "known_input_tokens": 0,
+          "known_cached_input_tokens": 0,
+          "known_output_tokens": 0,
+          "known_total_tokens": 0,
+          "usage_complete": true,
+          "sum_completed_call_seconds": 0.0
+        },
+        "other": {
+          "label": "분류되지 않은 호출",
+          "calls": 0,
+          "calls_with_usage": 0,
+          "calls_without_usage": 0,
+          "unmeasured_turns": 0,
+          "failed_calls": 0,
+          "unfinished_calls": 0,
+          "demo_calls": 0,
+          "known_input_tokens": 0,
+          "known_cached_input_tokens": 0,
+          "known_output_tokens": 0,
+          "known_total_tokens": 0,
+          "usage_complete": true,
+          "sum_completed_call_seconds": 0.0
+        }
+      }
+    },
+    {
+      "step": "HTML/JSON reports contain separated metrics",
+      "passed": true
+    },
+    {
+      "step": "debrief released after evaluation",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "live_llm_tested": false,
+  "browser_rendered": false,
+  "windows_tested": false
+}
